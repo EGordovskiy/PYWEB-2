@@ -39,9 +39,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'common',
+    'apps.common',
     'app',
-    'cart',
+    'apps.cart',
+    'apps.test_app',
+    'apps.home',
+    'apps.shop',
+    'apps.cart_shop',
+    'apps.checkout',
+    'apps.blog',
+    'apps.auth_shop',
 ]
 
 MIDDLEWARE = [
